@@ -1,1 +1,4 @@
 .DS_Store
+archive/
+node_modules/
+.svelte-kit/
