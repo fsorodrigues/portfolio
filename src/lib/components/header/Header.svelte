@@ -4,3 +4,7 @@
   </h1>
   <p>Hit me up on <span>fsorodrigues [ at ] gmail</span> and let's have a chat.</p>
 </div>
+<script>
+ import ToggleSwitch from "$lib/atoms/toggle-switch/ToggleSwitch.svelte";
+</script>
+    <ToggleSwitch />
