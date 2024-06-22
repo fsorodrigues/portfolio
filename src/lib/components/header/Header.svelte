@@ -3,7 +3,7 @@
 </script>
 
 <header class='fixed top-0 left-0 right-0 h-12'>
-  <div class='bg-gray-400 flex basis-full h-full py-1 px-3'>
+  <div class='flex items-center h-full py-1 px-3'>
     <ToggleSwitch />
   </div>
 </header>
