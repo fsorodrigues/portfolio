@@ -12,7 +12,7 @@
   
   let checked : boolean = $derived($mode === 'light')
 </script>
-<div class="wrapper relative w-8 h-8">
+<div class="wrapper relative w-8 h-8 mr-10">
   <input 
     type="checkbox" 
     role="switch" 
@@ -28,12 +28,3 @@
   {/if}
 </div>
 
-<!-- <style lang="postcss"> -->
-<!--   .wrapper { -->
-<!--     background: pink; -->
-<!--   } -->
-<!---->
-<!--   .wrapper:has(> input:checked) { -->
-<!--     background: peachpuff; -->
-<!--   } -->
-<!-- </style> -->

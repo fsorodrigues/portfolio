@@ -1,6 +1,6 @@
-<div class="light-mode-icon absolute flex items-center justify-center top-0 left-0 h-full w-full pointer-events-none">
+<div class="light-mode-icon absolute flex items-center justify-center top-0 left-0 h-full w-full pointer-events-none fill-primary-dark-300 stroke-primary-dark-600">
   <!-- https://feathericons.dev/?search=sun&iconset=feather -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
     <circle cx="12" cy="12" r="5" />
     <line x1="12" x2="12" y1="1" y2="3" />
     <line x1="12" x2="12" y1="21" y2="23" />
