@@ -16,7 +16,7 @@
   <input 
     type="checkbox" 
     role="switch" 
-    class="appearance-none h-full w-full" 
+    class="appearance-none h-full w-full cursor-pointer" 
     {checked}
     on:click={toggle}
   />

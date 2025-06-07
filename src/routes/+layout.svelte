@@ -1,6 +1,7 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
   import mode from '$lib/stores/Mode'
+  import { page } from '$app/stores'
 
   // import css
   import "../app.css";
@@ -33,12 +34,15 @@
   });
  
   onDestroy(unsubscribe);
+
+  let { children } = $props()
+  const headerConfig = {'/': 'me', '/work': 'work', '/lineup': 'lineup'}
 </script>
 
 <div class="{$mode}" data-theme={$mode}>
   <div class="transition-colors text-gray-950 dark:text-gray-200 bg-gray-50 dark:bg-gray-950 flex min-h-screen">
-    <Header />
-    <slot />
+    <Header {page} config={headerConfig} />
+    {@render children()}
     <Footer />
   </div>
 </div>
