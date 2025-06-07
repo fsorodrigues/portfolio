@@ -13,6 +13,10 @@ export default {
     },
     fontFamily: {
       mono: ['Cousine', 'ui-monospace'],
+    },
+    dropShadow: {
+      'dark': '0 0 5px #eab308',
+      'light': '0 0 5px #8b5cf6',
     }
   },
   plugins: [],
