@@ -1,6 +1,7 @@
 <script lang="ts">
   import { page } from '$app/stores';
   import Wrapper from "$lib/components/page-wrapper/Wrapper.svelte"
+  import type { LineupSection as Section, LineupItem as Item } from '$lib/components/types/types';
 
   const on_deck: Section = {
     title: "on deck",
@@ -22,7 +23,7 @@
   <div class="max-w-md"> 
     <h1 class="text-2xl lg:text-3xl font-bold mb-6">the lineup</h1>
     <p class="mb-2">
-      some stuff that I've been cooking. 
+      Some stuff that I've been cooking. 
       wait! no! the baseball metaphor! we're using the baseball metaphor!!
     </p>
     <p class="italic text-xs">at bat = currently doing. on deck = for the future</p>
