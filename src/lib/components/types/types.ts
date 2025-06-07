@@ -29,7 +29,7 @@ type LineupItem = {
 
 type LineupSection = {
   title: string
-  data: LineupItem
+  data: LineupItem[]
 }
 
 export type { Item, Section, LineupItem, LineupSection }
