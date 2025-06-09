@@ -1,6 +1,10 @@
 @import "tailwindcss"; 
 @config "../tailwind.config.js";
 
+@theme {
+  --breakpoint-3xl: 120rem;
+}
+
 @layer components {
   .stack-item {
     @apply grayscale-[60%];

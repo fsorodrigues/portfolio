@@ -16,7 +16,7 @@
   <div class="font-sans">
     <div class="mb-10">
       <div class="border-b-4 border-primary-light-500 dark:border-primary-dark-500 max-w-12 mb-1"></div>
-      <div class="grid grid-cols-2 sm:grid-cols-3 2xl:grid-cols-5 gap-3 mt-4">
+      <div class="grid grid-cols-2 sm:grid-cols-3 3xl:grid-cols-5 gap-3 mt-4">
         {#each $page.data.work.items as item}
           <Card {item} techTagMap={$page.data.tech}/>
         {/each}
